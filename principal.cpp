@@ -17,8 +17,9 @@ Principal::~Principal()
 
 void Principal::cent2fahr(int i)
 {
-    i=(i*(9/5)+32);
+    float fahrenheit=(i*(9/5)+32);
+    ui->outFahr->display(fahrenheit);
 
-    qDebug()<<i;
+
 }
 
