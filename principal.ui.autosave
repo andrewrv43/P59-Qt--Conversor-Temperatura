@@ -101,8 +101,16 @@ background-color: rgb(252, 175, 62);</string>
       <layout class="QVBoxLayout" name="verticalLayout_3">
        <item>
         <widget class="QLCDNumber" name="outKelv">
+         <property name="font">
+          <font>
+           <underline>false</underline>
+          </font>
+         </property>
          <property name="styleSheet">
           <string notr="true">background-color:rgb(193, 125, 17);</string>
+         </property>
+         <property name="smallDecimalPoint">
+          <bool>false</bool>
          </property>
          <property name="intValue" stdset="0">
           <number>273</number>
